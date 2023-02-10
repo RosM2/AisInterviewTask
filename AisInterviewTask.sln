@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisInterviewTask", "AisInterviewTask\AisInterviewTask.csproj", "{36E861E8-B847-40A2-B35C-1DCF3D6E0E70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{95951088-335B-41FB-A345-770BA00EE815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisInterviewTask.Tests", "AisInterviewTask.Tests\AisInterviewTask.Tests.csproj", "{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E861E8-B847-40A2-B35C-1DCF3D6E0E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E861E8-B847-40A2-B35C-1DCF3D6E0E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E861E8-B847-40A2-B35C-1DCF3D6E0E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E861E8-B847-40A2-B35C-1DCF3D6E0E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7E4D4BE-B62B-4818-87BE-43C2E7CDC0E4} = {95951088-335B-41FB-A345-770BA00EE815}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3B8008-848A-4E25-AE1F-2A358869B291}
+	EndGlobalSection
+EndGlobal
